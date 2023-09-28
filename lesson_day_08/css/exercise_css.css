@@ -1,0 +1,54 @@
+body {
+    background-color: orange;
+}
+
+h3 {
+    color: navy
+}
+p {
+    color: #fb7d9e;
+}
+.one {
+    /* color: rgb(23, 14, 145); */
+    color:rgb(179, 60, 226);
+}
+div {
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+
+}
+
+div div {
+    height: 50px;
+    width: 150px;
+    background-color: rgba(195, 25, 218, 0.5);
+}
+.exercise5 {
+    background-color: aqua;
+    color:white;
+}
+#two {
+    height: 400px;
+    width: 700px;
+    background-color: aquamarine;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#three {
+    border-radius: 50%;
+    background-color: lightsalmon;
+    height: 50px;
+    width: 50px;
+}
+#four {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+#five {
+    background-color: blueviolet;
+
+}
