@@ -1,0 +1,19 @@
+div {
+    background-color: rgb(188, 188, 222);
+    width: 300px;
+    height: 200px;
+}
+#ex2 {
+    width: 500px;
+    height: 300px;
+}
+#ex3 {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+#ex4 {
+    width: 200px;
+    height: 150px;
+    overflow-y: scroll;
+}

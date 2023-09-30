@@ -1,0 +1,54 @@
+#one {
+    font-weight: bold;
+}
+#hi {
+    font-style: italic;
+}
+#two {
+    text-transform: uppercase;
+}
+#three {
+    text-transform: capitalize;
+}
+.mid-line {
+    text-decoration: line-through;
+}
+.under-line {
+    text-decoration: underline;
+}
+a {
+    color: orange;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 255, 162);
+    text-decoration: underline;
+}
+a:hover {
+    color:deeppink;
+    text-decoration: underline;
+}
+#four {
+    text-transform: capitalize;
+}
+#exone {
+    font-weight: bold;
+}
+#extwo {
+    text-decoration: line-through;
+}
+#exthree {
+    font-style: italic;
+}
+#exfour {
+    text-decoration: underline;
+}
+#exfive {
+    text-decoration: line-through;
+}
+#ex8:hover {
+    background-color: yellow;
+    color:aqua;
+    font-size: 25px;
+    border-style: dotted;
+}
