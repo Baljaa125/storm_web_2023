@@ -1,19 +1,94 @@
-div {
-    background-color: rgb(188, 188, 222);
+#ex1 {
+    background-color: rgb(61, 140, 231);
     width: 300px;
     height: 200px;
 }
 #ex2 {
+    background-color: orange;
     width: 500px;
     height: 300px;
 }
 #ex3 {
-    width: 200px;
-    height: 150px;
+    w;th: 200px;
+    height: 200px;
     overflow: hidden;
 }
 #ex4 {
     width: 200px;
     height: 150px;
     overflow-y: scroll;
+}
+#ex5main {
+    width:500px;
+    height:300px;
+    background-color: aquamarine;
+    overflow-y: scroll;
+    border:1px solid;
+    padding: 10px;
+}
+#ex5sub1 {
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+    overflow-y: scroll;
+    padding: 10px;
+    border:1px solid;
+    float:left;
+    margin: 10px;
+}
+#ex5sub2 {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(210, 245, 13);
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+}
+#ex61 {
+    background-color: lightblue;
+    float: left;
+    width: 25%;
+    height: 15%;
+    padding: 10px;
+    margin:15px;;
+}
+#ex62 {
+    background-color: lightblue;
+    float:left;
+    width: 25%;
+    height: 15%;
+    padding: 10px;
+    margin:15px;
+}
+#ex63 {
+    background-color: lightblue;
+    width: 25%;
+    height: 10%;
+    padding: 10px;
+    margin:15px;
+    float:left;
+}
+#clear {
+clear:both;
+}
+
+#ex7 {
+background-color: yellowgreen;
+max-width: 400px;
+min-width: 200px;
+}
+#ex8 {
+    background-color: aquamarine;
+    max-height: 300px;
+    min-height: 100px;
+    width: 250px;
+}
+#ex9 {
+    width:100px;
+    border: 1px solid;
+}
+#ex10 {
+    max-width: 700px;
+    overflow-x: scroll;
 }

@@ -52,3 +52,29 @@ a:hover {
     font-size: 25px;
     border-style: dotted;
 }
+#button {
+    background-color:orange;
+    color: white;
+    border-style: none;
+}
+#button:active {
+    background-color: green;
+    color: black;
+    border-style:solid;
+}
+#ex10 {
+    color:rgba(124, 84, 10, 0.89);
+    background-color: red;
+    border-radius: 50%;
+    border: 1px;
+    border-color: black;
+    border-style:dotted;
+}
+#ex10:hover {
+    color:white;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px;
+    border-color: rgb(16, 191, 235);
+    border-style:solid;
+}

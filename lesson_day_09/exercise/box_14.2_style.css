@@ -1,0 +1,150 @@
+#ex1 {
+    width: 200px;
+    height: 100px;
+    border-top: solid;
+    border-top-color: red;
+    border-right: dashed;
+    border-right-color: green;
+    border-bottom: dotted;
+    border-bottom-color: blue;
+    border-left: solid;
+    border-left-color: orange;
+    margin: 20px;
+    padding: 30px;
+}
+
+#ex2 {
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    border: 1px solid;
+}
+
+#ex31 {
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 60px;
+}
+
+#ex32 {
+    background-color: rgb(221, 255, 127);
+    margin: 10px;
+    padding: 20px;
+}
+
+#ex4 {
+    width: 200px;
+    padding: 40px;
+    background-color: brown;
+}
+
+#ex51 {
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}
+
+#ex52 {
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#ex61 {
+    width: 200px;
+    height: 130px;
+    background-color: green;
+    float: left;
+    padding: 10px;
+}
+#ex62 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(228, 231, 17);
+    float: left;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+#clear {
+    clear:both;
+}
+
+#ex7 {
+    background-color: rgba(33, 126, 33, 0.788);
+    padding: 80px;
+}
+#ex81 {
+    background-color: lightcoral;
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+#ex82 {
+    background-color: lightcoral;
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+#ex83 {
+    background-color: lightcoral;
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+#ex9 {
+    background-color: blue;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: black;
+    width: 500px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#ex91 {
+    background-color: red;
+    color: white;
+    width: 400px;
+    height: 100px;
+    font-size: 24px;
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+}
+#ex10 {
+    background-color: lightblue;
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+#ex101 {
+    background-color: rgb(68, 165, 68);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    height: 25px;
+    width: 450px;
+}
+#ex102 {
+    background-color: lightcoral;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    padding: 10px;
+    height: 25px;
+    width: 450px;
+}
