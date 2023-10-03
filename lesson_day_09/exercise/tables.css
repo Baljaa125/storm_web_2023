@@ -1,0 +1,34 @@
+#ex1 {
+    width: 700px;
+    border: 2px solid black;
+}
+td, th {
+    padding: 7px 10px;
+}
+#ex2 {
+    margin: 0 auto;
+    background-color: #FBFFDC;
+    letter-spacing: 0.1rem;
+}
+#ex2 td, th {
+    padding: 7px 10px;
+}
+#ex2 th {
+    text-transform: uppercase;
+}
+#ex3 {
+    margin: 0 auto;
+}
+#ex3 th {
+    padding: 5px;
+    border-bottom: 2px solid #AAC8A7;
+    border-top: 1px solid #C3EDC0;
+}
+#ex3 td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+#ex3 .name {
+    text-align: left;
+}

@@ -1,0 +1,47 @@
+#ex1 {
+    list-style-type: circle;
+}
+ol {
+    list-style-type: lower-roman;
+}
+#ex3 {
+    list-style-type: lower-alpha;
+}
+#ex4 {
+    list-style-type: square;
+}
+#ex5 {
+    list-style-image: url("..//exercise/star.png");
+    /* list-style-position: inside; */
+
+    margin-bottom: 20px;
+}
+.ex5 {
+    margin-top: 10px;
+
+}
+.vegetables , li{
+    list-style-type: square;
+}
+.fruits , .dairy {
+
+    list-style-type: circle;
+}
+.ex7 {
+    list-style-image: url("..//exercise/spoon.png");
+}
+.ex71 {
+    list-style-type: lower-alpha;
+}
+.done {
+    list-style-image: url("..//exercise/tick.png");
+}
+.udone {
+    list-style-type: circle;
+}
+#ex101 {
+    list-style-type: circle;
+}
+#ex102 {
+    list-style-type: circle;
+}
