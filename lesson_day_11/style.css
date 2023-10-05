@@ -1,0 +1,64 @@
+#ex1:hover {
+    border: 1px solid red;
+}
+
+#ex2:hover {
+    filter: grayscale();
+}
+
+#ex3 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#ex4 {
+    box-shadow: 2px 5px 16px;
+}
+
+#ex5 {
+    width: 50%;
+    height: 50%;
+}
+
+#ex6 {
+    border: 5px dashed black;
+    padding: 10px;
+}
+
+#ex7 {
+    width: 400px;
+    height: 400px;
+    background-image: url("ex1.zurag.jpeg");
+    position: relative;
+}
+
+#ex7 p {
+    width: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+#ex8 {
+    filter:grayscale()
+}
+
+#ex8:hover {
+    filter: contrast();
+}
+#ex9 {
+    width: 600px;
+    height: 650px;
+    object-fit:cover;
+}
+#ex10 {
+    filter:sepia()
+}
+#ex11 {
+    width: 500px;
+    height: 500px;
+    background-image: url("ex1.zurag.jpeg");
+    border: 2px solid red;
+}
