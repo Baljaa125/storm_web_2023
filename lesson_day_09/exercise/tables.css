@@ -2,33 +2,177 @@
     width: 700px;
     border: 2px solid black;
 }
-td, th {
+
+td,
+th {
     padding: 7px 10px;
 }
+
 #ex2 {
     margin: 0 auto;
     background-color: #FBFFDC;
     letter-spacing: 0.1rem;
 }
-#ex2 td, th {
+
+#ex2 td,
+th {
     padding: 7px 10px;
 }
+
 #ex2 th {
     text-transform: uppercase;
 }
+
 #ex3 {
     margin: 0 auto;
 }
+
 #ex3 th {
     padding: 5px;
     border-bottom: 2px solid #AAC8A7;
     border-top: 1px solid #C3EDC0;
 }
+
 #ex3 td {
     padding: 5px;
     text-align: center;
     border-top: 1px solid #C3EDC0;
 }
+
 #ex3 .name {
     text-align: left;
+}
+
+#ex4 {
+    margin: 0 auto;
+    letter-spacing: 0.1rem;
+}
+
+#ex4 td,
+th {
+    padding: 7px 10px;
+    border-bottom: 1px solid #FFDEB4;
+}
+
+#ex4 th {
+    text-transform: uppercase;
+    border-bottom: 2px solid #F7C8E0;
+    border-top: 1px solid #FFDEB4;
+}
+
+.even {
+    background-color: #F8E8EE;
+}
+
+.odd {
+    background-color: #FAF3F0;
+}
+
+#ex5 {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+#ex5 th {
+    background-color: rgb(35, 160, 133);
+    color: white;
+}
+
+#three {
+    color: lightseagreen;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+#ex5 #four {
+    border-bottom: 2px solid rgb(35, 160, 133);
+}
+
+#ex6a td {
+    border: 1px solid #a9dd00;
+    padding: 15px;
+    width: 25px;
+}
+
+#ex6b td {
+    border: 1px solid #a9dd00;
+    padding: 15px;
+    width: 25px;
+}
+
+#ex6b {
+    background-color: darkcyan;
+    empty-cells: hide;
+}
+
+#ex7 td {
+    border: 1px solid lightcoral;
+    background-color: lightgrey;
+    padding: 15px;
+    width: 25px;
+}
+
+#ex7 td:hover {
+    background-color: green;
+}
+
+#ex8 td {
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #F31559;
+    border-radius: 10px;
+}
+
+#ex8 td.one {
+    background-image: url("ex8-1.jpg");
+}
+
+#ex8 td.two {
+    background-image: url("ex8-2.jpg");
+}
+
+#ex8 td.three {
+    background-image: url("ex8-2.jpg");
+}
+
+#ex8 td.four {
+    background-image: url("ex8-4.jpg");
+}
+#ex8 {
+    border-spacing: 15px;
+}
+table.second {
+    border-collapse: separate;
+}
+
+table.second td {
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #F31559;
+    border-radius: 10px;
+}
+
+table.second td.one {
+    background-image: url("ex8-1.jpg");
+}
+
+table.second td.two {
+    background-image: url("ex8-2.jpg");
+}
+
+table.second td.three {
+    background-image: url("ex8-2.jpg");
+}
+
+table.second td.four {
+    background-image: url("ex8-4.jpg");
+}
+table.second {
+    border-spacing: 15px;
 }
