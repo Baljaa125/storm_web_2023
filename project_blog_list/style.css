@@ -1,10 +1,10 @@
 #page {
-    max-width: 1024px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 60px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-    background-color: rgb(45, 81, 103);
+    background-color: rgb(35, 75, 100);
     text-align: center;
     height: 100px;
 }
@@ -22,15 +22,18 @@ header {
     gap: 30px;
     justify-content: center;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
-#pin {
-    margin-top: 70px;
-    color: rgb(201, 191, 191);
+.pin {
+    margin-top: 50px;
+    color: rgb(148, 146, 146);
+    font-size: 11px;
 }
 .article-title {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: -15px; 
 }
 .article-title img {
     border-radius: 50%;
@@ -39,20 +42,46 @@ header {
 }
 .article {
     text-align: justify;
+    color:rgb(124, 119, 119);
+    margin-top: 25px;
+}
+.author {
+    font-size: 11px;
+    color: rgb(133, 128, 128);
+    margin-bottom: 20px;
+}
+.author .name {
+    color: rgb(74, 202, 224);
+}
+.author #CSS {
+    color: white;
+    background-color: rgb(35, 121, 68);
+}
+.author #HTML {
+        color: white;
+        background-color: rgb(17, 147, 187);
+}
+.author #Javascript {
+            color: white;
+            background-color: rgb(224, 26, 85);
+}
+.author #uncategorized {
+    color: white;
+    background-color: rgb(156, 153, 155);
 }
 .image1 {
-    background-image: url("images/notebook.jpg");
+    background-image: url("images/zurag1.JPG");
     background-size: contain;
     width: 500px;
-    height: 350px;
-    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
 }
 .image2 {
-    background-image: url("images/beach.jpg");
+    background-image: url("images/zurag2.JPG");
     width: 500px;
-    height: 350px;
+    height: 300px;
     background-size: contain;
-    position: relative;
+    background-repeat: no-repeat;
 }
 #imagecontainer {
     display: flex;
@@ -67,4 +96,14 @@ header {
     position: absolute;
     bottom: 0;
     color: white;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-top: 40px;
+    font-size: 32px;
 }
