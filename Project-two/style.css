@@ -1,0 +1,46 @@
+.firstsection {
+    background-color: rgb(50, 45, 45);
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 60px;
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+.images img{
+
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    
+}
+.secondsection {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+#links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+#footer {
+    background-color: rgb(50, 45, 45);
+    color: whitesmoke;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+#firsttext {
+    font-size: 48px;
+}
+.contain {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
