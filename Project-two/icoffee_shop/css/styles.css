@@ -1,0 +1,127 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    max-width: 1790px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* padding: 0px 89.52px 0px 89.49px; */
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #603601;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.logo {
+    width: 30.625px;
+    height: 35px;
+    background: url("images/logo.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.logoname {
+    display: flex;
+    gap: 20px;
+}
+
+#name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 100% */
+    letter-spacing: 2px;
+    width: auto;
+    height: auto;
+    margin: 22.5px 0;
+    padding: 5 0 5 10;
+}
+
+.menu nav {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+section img {
+    width: 100%;
+    height: 500px;
+}
+
+#about {
+    width: 1790px;
+    height: 600px;
+    margin: 30px 90px;
+}
+
+#textabout {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#div_container {
+    display: flex;
+    gap: 40px;
+    width: 1611.02px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+
+}
+
+#zurag1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#para1 {
+    max-width: 785px;
+    height: 313px;
+}
+
+#heading1 {
+    width: 652px;
+    height: 47px;
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    object-fit: contain;
+    padding: 0px 133px 266px 0px;
+}
+
+#h1text {
+    width: 758px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 60px 28px 198px 0px;
+}
+
+#text {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding-top: 126px;
+    padding-bottom: 70px;
+    /* 180% */
+}
