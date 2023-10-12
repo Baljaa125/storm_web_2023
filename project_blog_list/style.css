@@ -19,7 +19,7 @@ header {
 }
 #headerline3 {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     color: white;
     font-size: 10px;
