@@ -458,7 +458,11 @@
 }
 .location {
     width: 48%;
+    height: auto;
     background-color: hsl(0, 24%, 92%);
+}
+.location iframe {
+    object-fit: fill;
 }
 .form form {
     padding: 0 20px;
