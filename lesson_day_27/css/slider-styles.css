@@ -7,7 +7,7 @@ body {
 .slider-container {
     position: relative;
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 .slider {

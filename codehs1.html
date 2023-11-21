@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		    html,body{
+		        display:flex;
+		        flex-wrap: wrap;
+		        height:100%;
+		        width:100%;
+		        padding-left:2%;
+		        padding-right:2%;
+		    }
+		    div{
+		        height:10%;
+		        width:9%;
+		        border: 1px solid black;
+		    }
+		</style>
+	</head>
+	<body>
+		<script>
+		    //add 100 divs to the canvas
+		    for (let i = 0; i < 100; i++) {
+		        let divElement = document.createElement('div');
+		        document.body.appendChild(divElement);
+		        divElement.addEventListener('mouseover', paint);
+		    }
+		    
+		  //write function paint
+		    function paint(event) {
+		        var divColors = ['green', 'red', 'yellow', 'pink'];
+		        var randomColor = Math.floor(Math.random()*divColors.length);
+		        event.style.backgroundColor = randomColor;
+		         
+		    }
+		</script>
+	</body>
+</html>
